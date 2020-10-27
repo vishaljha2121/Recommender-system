@@ -1,2 +1,5 @@
 # Recommender-system
  Recommender systems are the systems that are designed to recommend things to the user based on many different factors. 
+
+# Content-based filtering
+Content-based filtering recommends items based on the similarity in features between an item and a user preference. For example, we can extract features from a movie description and match what a user prefers. For example, the movie “Spy” can be featured as a McCarthy movie and will match users that watch McCarthy movies regularly. Information about a movie can be extracted from the movie title, descriptions, and information provided by the studio. A user preference can be determined by explicit information given by a user, like the demographic information, or information that can be indirectly collected from what the viewers watch, interact and purchase. Many recommender systems need to deal with the cold start problem when there is not enough information collected for a new user. Deriving user meta-information from user interactions is important. For example, we can collect descriptions for movies that a user watched and use that as input to extract a user preference.
